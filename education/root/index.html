@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>正方形の面積</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>正方形の面積</h1>
+    <label for="sideLength">正方形の1辺の長さ(cm):</label>
+    <input type="number" id="sideLength" step="0.01" min="0">
+    <p><font color="red">注意</font> : <b>半角</b>で入力してね！</p>
+    <br>
+    <div id="results">
+        <p>正方形の面積(cm<sup>2</sup>): <span id="area"></span></p>
+        <p>5cm<sup>2</sup>との差: <span id="difference"></span></p>
+        <p>↑いい値が出たらメモしておきましょう。あとでこの2つの値をClassroomに送信してもらいます！</p>
+    </div>
+    <div id="grid-container">
+        <canvas id="grid"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
