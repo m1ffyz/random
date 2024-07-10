@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#results p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#grid-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#results span {
+    font-weight: bold;
+}
